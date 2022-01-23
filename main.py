@@ -8,6 +8,6 @@ r = requests.get(url)
 htmlContent = r.content
 #print(htmlContent)
 
-#Parese the HTML
+#Parse the HTML
 soup = BeautifulSoup(htmlContent,'html.parser')
 print(soup.prettify)
