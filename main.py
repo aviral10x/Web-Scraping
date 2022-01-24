@@ -19,4 +19,4 @@ title = soup.title
 paras = soup.find_all('p')
 #print(paras)
 anchortags = soup.find_all('a')
-print(anchortags)
+#print(anchortags)
